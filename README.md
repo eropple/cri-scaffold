@@ -15,6 +15,9 @@ using Cri::Scaffold works exactly the same, every time. In a nutshell:
   the "is it an underscore or is it a hyphen?" question. Hyphens are cool. We
   use hyphens.
 
+Hat-tip to my friend [Sean Edwards](https://github.com/seanedwards) for the
+idea.
+
 ## Usage
 Cri::Scaffold expects to be pointed at a directory containing a file called
 `cli.rb`. It returns acompletely configured `Cri::Command` that can be evaluated
