@@ -26,7 +26,7 @@ module Cri
             instance_eval File.read(file), file
           end
         else
-          parent.define_command(name) do |dsl|
+          parent.define_command(name.gsub("_", "-")) do |dsl|
             dsl.instance_eval File.read(file), file
           end
         end
