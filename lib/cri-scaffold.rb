@@ -1,0 +1,1 @@
+require "cri/scaffold"
